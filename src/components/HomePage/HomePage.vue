@@ -192,7 +192,7 @@ export default {
         </div>
     </div>
   </div>
-  <div class="container-fluid text-center mt-5">
+  <div class=" present container-fluid text-center mt-5">
       <img class="mt-5" src="../../assets/ContentBlock/treadeMore.png" alt="logo">
   </div>
   <CTAFooter/>

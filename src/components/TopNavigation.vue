@@ -76,8 +76,8 @@
             </li>
           </ul>
         <div class="">
-          <button class="btn btn-outline-dark p-2 ps-4 px-4"> Sign In</button>
-          <button class="btn btn-outline-primary fw-bold ms-5 p-2 ps-3 px-3"> Get Started</button>
+          <RouterLink to="/SignIn"  class="btn btn-outline-dark p-2 ps-4 px-4"> Sign In</RouterLink>
+          <RouterLink to="/SignUp" class="btn btn-outline-primary fw-bold ms-5 p-2 ps-3 px-3"  > Get Started</RouterLink>
 
         </div>
       </div>

@@ -159,4 +159,5 @@
 
 <style>
 @import "../../style/Footer/Footer.css";
+@import "../../style/Content/ContentBlock.css";
 </style>

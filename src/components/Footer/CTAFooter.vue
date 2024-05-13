@@ -9,11 +9,11 @@
           <h1 class="text-light mt-5">Sign in now to get $50 worth of crypto</h1>
           <button class="btn btn-outline-primary btn-lg fs-3  text-info  mt-3 bg-white" >Get Started</button>
         </div>
-      <div class="container col-5">
+      <div class="present container col-5">
         <img src="../../assets/ContentBlock/phone.png" alt="">
       </div>
       <div class="container col mt-5">
-        <img class="mt-3" src="../../assets/ContentBlock/Barcode.png" alt="">
+        <img class="present mt-3" src="../../assets/ContentBlock/Barcode.png" alt="">
       </div>
     </div>
   </div>
@@ -21,4 +21,5 @@
 
 <style>
 @import "../../style/Footer/Footer.css";
+@import "../../style/Content/ContentBlock.css";
 </style>

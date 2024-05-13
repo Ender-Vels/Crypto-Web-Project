@@ -14,8 +14,9 @@ export default {
 <template>
 <div class="container">
   <TopNavigation/>
-  <HomePage/>
+
 </div>
+  <RouterView/>
 </template>
 
 <style>

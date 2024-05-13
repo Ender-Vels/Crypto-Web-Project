@@ -1,0 +1,30 @@
+.google{
+    background: none;
+
+}
+.google:hover{
+    background: #5235E8;
+    color: white;
+    transition: all 0.5s linear;
+
+}
+.anim img{
+    opacity: 0;
+    animation: animated 1s ease forwards;
+}
+
+
+@keyframes animated {
+    from{
+        opacity: 0;
+        width: 0;
+
+    }
+    to{
+        opacity: 1;
+        width: 100%;
+    }
+}
+.imgRight img{
+    height: 800px;
+}
