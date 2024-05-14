@@ -30,9 +30,9 @@
 }
 .reset{
     border:1px solid #efefef;
-    -webkit-box-shadow: 0px 3px 57px 16px rgba(199,199,199,1);
-    -moz-box-shadow: 0px 3px 57px 16px rgba(199,199,199,1);
-    box-shadow: 0px 3px 57px 16px rgba(199,199,199,1);
+    -webkit-box-shadow: 0 3px 57px 16px rgba(199,199,199,1);
+    -moz-box-shadow: 0 3px 57px 16px rgba(199,199,199,1);
+    box-shadow: 0 3px 57px 16px rgba(199,199,199,1);
 
 }
 
