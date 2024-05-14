@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="container-fluid  p-5 mt-5">
+  <div class="container   p-5 mt-5">
   <div class="container-fluid row ">
     <div class="container-lg p-3 col-4">
       <div>
@@ -106,14 +106,15 @@ export default {
 
     </div>
   </div>
-  <div class="container-fluid row mt-5" >
+  <div class="container align-middle row mt-5" >
         <div class="container text-center col mt-5">
           <span class="text-primary mt-5">FEATURES</span>
           <h1 class="mt-5">Supercharge your trades with advanced features</h1>
         </div>
 
-        <div class="row mt-5 d-flex justify-content-center"  >
-        <div class="container-fluid col" v-for="data in dataCard" :key="data.id">
+    <div class="container">
+        <div class=" container row "  >
+        <div class="container col" v-for="data in dataCard" :key="data.id">
           <div class="  card text-center p-3">
             <img :src="data.img" alt="">
             <div class="card-body">
@@ -123,10 +124,11 @@ export default {
           </div>
         </div>
         </div>
+    </div>
 
 
   </div>
-  <div class="container-fluid row">
+  <div class="container row">
     <div class="container col-12">
       <div class="container mt-5">
           <span class="mt-5 text-primary">Features</span>
@@ -156,7 +158,7 @@ export default {
       </div>
     </div>
   </div>
-  <div class="container-fluid mt-5">
+  <div class="container mt-5">
     <div class="container text-center mt-5">
         <span class="text-primary mt-5">TESTIMONIALS</span>
       <h1 class="mt-5">Trusted by more than 100K+ people</h1>
@@ -192,7 +194,7 @@ export default {
         </div>
     </div>
   </div>
-  <div class=" present container-fluid text-center mt-5">
+  <div class=" present container text-center mt-5">
       <img class="mt-5" src="../../assets/ContentBlock/treadeMore.png" alt="logo">
   </div>
   <CTAFooter/>

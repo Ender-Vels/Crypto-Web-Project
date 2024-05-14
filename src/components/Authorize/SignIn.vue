@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="container-fluid row d-flex mt-5">
+<div class="container row d-flex mt-5">
   <div class="  container col mt-5 ms-5">
     <div class="mt-5">
         <img src="../../assets/TopNav/logo.png" alt="logo">
@@ -16,11 +16,11 @@
       <form action="">
 
         <h3>Email</h3>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         <h3>Password</h3>
         <input type="password" class="form-control" id="exampleFormControlInput1" >
         <div class="mt-3">
-          <RouterLink class="text-primary text-decoration-none" to="/">Forgot password?</RouterLink>
+          <RouterLink class="text-primary text-decoration-none" to="/Reset">Forgot password?</RouterLink>
         </div>
         <div class="mt-5">
             <button class="btn btn-primary container-fluid p-2" type="submit">Sign In</button>

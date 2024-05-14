@@ -13,7 +13,7 @@
 
           <ul class="navbar-nav col">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="featuresDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/">Features</a>
+                <a class="nav-link dropdown-toggle" id="featuresDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Features</a>
                   <div class="dropdown-menu " aria-labelledby="featuresDrop">
                       <div class="">
                          <span class="text-muted text-uppercase ms-4 mt-3 pt-3">Features</span>

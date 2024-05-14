@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-<div class="container">
+  <div class=" main container">
   <TopNavigation/>
 
 </div>

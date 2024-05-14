@@ -28,3 +28,25 @@
 .imgRight img{
     height: 800px;
 }
+.reset{
+    border:1px solid #efefef;
+    -webkit-box-shadow: 0px 3px 57px 16px rgba(199,199,199,1);
+    -moz-box-shadow: 0px 3px 57px 16px rgba(199,199,199,1);
+    box-shadow: 0px 3px 57px 16px rgba(199,199,199,1);
+
+}
+
+.animRes{
+    animation:ResetAnim 1s ease forwards;
+}
+
+@keyframes ResetAnim {
+    0%{
+        opacity:0;
+        height:0;
+    }
+    100%{
+        opacity: 1;
+        height: 100%;
+    }
+}

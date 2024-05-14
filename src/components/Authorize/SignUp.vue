@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="container-fluid d-flex row mt-5">
+<div class="container d-flex row mt-5">
   <div class="container col ms-4 mt-5">
     <div >
       <img src="../../assets/TopNav/logo.png" alt="logo">
